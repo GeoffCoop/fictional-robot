@@ -6,7 +6,7 @@ pipeline {
       steps {
         sh 'go version'
         sh 'ls -la'
-        sh 'GOCACHE=off make test'
+        sh 'GOCACHE=/tmp/ make test'
       }
     }
 
