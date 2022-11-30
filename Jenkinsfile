@@ -12,7 +12,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'GOCACHE =/tmp/ make'
+        sh 'GOCACHE=/tmp/ make'
       }
     }
 
