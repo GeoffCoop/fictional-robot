@@ -5,4 +5,4 @@ test:
 	go test server.go roller.go handlers.go
 	
 clean:
-	rm server
+	rm -f server
