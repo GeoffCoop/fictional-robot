@@ -6,6 +6,7 @@ pipeline {
       steps {
         sh 'go version'
         sh 'ls -la'
+        sh 'go install'
         sh 'make test'
       }
     }
